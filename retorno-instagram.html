@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Voltando ao Claquete…</title>
+<style>body{font:16px/1.6 system-ui,sans-serif;max-width:560px;margin:64px auto;padding:0 20px;color:#1a1a1a}</style></head>
+<body>
+<p id="m">Voltando ao Claquete…</p>
+<script>
+// Esta página só repassa o retorno do login do Instagram para o Claquete, que está aberto neste mesmo computador.
+// Nada é guardado nem enviado a nenhum servidor: o navegador apenas troca o endereço.
+location.replace('http://127.0.0.1:4378/callback/instagram' + location.search);
+setTimeout(function () { document.getElementById('m').textContent = 'Se nada aconteceu, abra o Claquete e tente Conectar de novo.'; }, 4000);
+</script>
+</body></html>
