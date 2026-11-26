@@ -1,5 +1,9 @@
 {
-  "versao": "0.1.0",
-  "nota": "Primeira versão.",
-  "link": ""
+  "versao": "0.2.0",
+  "nota": "Publicar vídeos no YouTube direto do app, atualização com um clique, relatório de problema, e o Claude instalado por npm agora é encontrado.",
+  "url": "https://github.com/gui008/claquete-site/releases/download/v0.2.0/Claquete-0.2.0.bin",
+  "tamanho": 263902100,
+  "sha256": "b1dc32ed84dc7d9dc58025045cc8b05c7ecb7eee0bcb018b5248d6925bc6cb35",
+  "iv": "cJo6nYkDQr7f6vUH9S3hzw==",
+  "assinatura": "12c1PwoGcr9VpzVpgZTBzfcaMNpZXDTPgoM_-asAbPmNbkMpWyT_WFPqemU5M1lFyuOCjssKdbRUG_tMaTiTDg"
 }
